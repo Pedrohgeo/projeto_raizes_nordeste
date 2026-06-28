@@ -44,7 +44,7 @@ projeto_raizes_nordeste/
 ### 1. Clonar o repositório
 
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/Pedrohgeo/projeto_raizes_nordeste.git
 ```
 
 ### 2. Acessar a pasta
