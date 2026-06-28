@@ -148,6 +148,51 @@ raizes.db
 As tabelas são criadas automaticamente na inicialização da aplicação.
 
 ---
+---
+
+## Links e Evidências
+
+### Repositório GitHub
+
+Acesse o código-fonte do projeto:
+
+https://github.com/Pedrohgeo/projeto_raizes_nordeste
+
+---
+
+## Documentação Swagger da API
+
+Após iniciar a aplicação, a documentação interativa da API estará disponível em:
+
+URL local:
+http://127.0.0.1:8000/docs
+
+
+Rota Swagger:
+/docs
+Também é possível acessar a documentação alternativa:
+
+ReDoc:
+http://127.0.0.1:8000/redoc
+
+Rota:
+/redoc
+
+## Deploy
+
+Projeto executado localmente.
+
+Não há deploy público disponível no momento.
+
+## Evidências e Testes
+
+A documentação dos testes realizados no Postman está disponível em:
+
+ProjetoFinal_Raizes_Nordeste.pdf
+
+A coleção Postman utilizada para testes está disponível em:
+
+API Raízes Nordeste Copy.postman_collection
 
 ## Autor
 
