@@ -1,0 +1,156 @@
+# API Raízes Nordeste
+
+# Descrição
+
+A **API Raízes Nordeste** é um projeto desenvolvido em **Python** utilizando o framework **FastAPI**. O sistema simula uma API para gerenciamento de uma loja de produtos típicos nordestinos, permitindo o cadastro e gerenciamento de usuários, produtos, pedidos e itens dos pedidos.
+
+
+##  Tecnologias Utilizadas
+
+* Python 3.13
+* FastAPI
+* SQLAlchemy
+* SQLite
+* Pydantic
+* Uvicorn
+
+---
+
+## Estrutura do Projeto
+
+```text
+projeto_raizes_nordeste/
+│
+├── app/
+│   ├── models/
+│   ├── routers/
+│   ├── schemas/
+│   ├── config.py
+│   ├── database.py
+│   ├── enums.py
+│   └── main.py
+│
+├── requirements.txt
+├── raizes.db
+├── .env
+├── .gitignore
+└── README.md
+```
+
+---
+
+## Como executar o projeto
+
+### 1. Clonar o repositório
+
+```bash
+git clone <url-do-repositorio>
+```
+
+### 2. Acessar a pasta
+
+```bash
+cd projeto_raizes_nordeste
+```
+
+### 3. Criar o ambiente virtual
+
+```bash
+python -m venv venv
+```
+
+### 4. Ativar o ambiente virtual
+
+Windows:
+
+```bash
+venv\Scripts\activate
+```
+
+Linux/macOS:
+
+```bash
+source venv/bin/activate
+```
+
+### 5. Instalar as dependências
+
+```bash
+pip install -r requirements.txt
+```
+
+### 6. Executar a aplicação
+
+```bash
+uvicorn app.main:app --reload
+```
+
+---
+
+##  Documentação da API
+
+Após iniciar o servidor, acesse:
+
+Swagger UI:
+
+```
+http://127.0.0.1:8000/docs
+```
+
+Documentação ReDoc:
+
+```
+http://127.0.0.1:8000/redoc
+```
+
+---
+
+##  Funcionalidades
+
+### Usuários
+
+* Criar usuário
+* Listar usuários
+* Atualizar usuário
+* Excluir usuário
+
+### Produtos
+
+* Criar produto
+* Listar produtos
+* Atualizar produto
+* Excluir produto
+
+### Pedidos
+
+* Criar pedido
+* Listar pedidos
+* Atualizar pedido
+* Excluir pedido
+
+### Itens do Pedido
+
+* Criar item do pedido
+* Listar itens do pedido
+* Atualizar item do pedido
+* Excluir item do pedido
+
+---
+
+##  Banco de Dados
+
+O projeto utiliza o banco de dados **SQLite**, armazenado no arquivo:
+
+```
+raizes.db
+```
+
+As tabelas são criadas automaticamente na inicialização da aplicação.
+
+---
+
+## Autor
+
+**Pedro Henrique**
+
+Texto de apoio e descrição produzido com auxilio de IA.
